@@ -1,0 +1,92 @@
+div{
+  border: 2px solid navy;
+  background-color:silver;
+  text-align:center;
+  height:auto;
+  overflow:auto;
+}
+
+.colors{
+  margin-bottom: 20px;
+  text-align:center;
+  position:relative;
+  display:flex;
+}
+
+.colors h3{
+  text-align:center;
+  margin:5px;
+}
+
+.colors .m{
+  background-color:hsl(0,100%,25%);
+  width:24%;
+  float:right;
+  border-color:hsl(0,100%,25%);
+
+}
+
+.colors .v{
+  background-color:hsl(300,100%,25%);
+  width:24%;
+  float:right;
+  border-color:hsl(300,100%,25%);
+
+}
+
+.colors .w{
+  background-color:hsl(39,177%,33%);
+  width:24%;
+  float:right;
+  border-color:hsl(39,177%,33%);
+
+}
+
+.colors .b{
+  background-color:hsl(60,50%,90%);
+  width:24%;
+  border-color:hsl(60,50%,90%);
+  float:bottom;
+
+}
+
+.fonts{
+  margin-bottom: 20px;
+}
+
+.fonts .sacramento{
+  font-family: 'Sacramento', cursive;
+}
+
+.fonts .shadows{
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.fonts .IBM{
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.text{
+  overflow:auto;
+}
+
+.text h1{
+  font-family: 'Shadows Into Light', cursive;
+}
+.text .h1{
+ text-align:left;
+}
+
+.text h4{
+  font-family: 'Sacramento', cursive;
+}
+.text .h4{
+ text-align:left;
+}
+
+.text p{
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.text .p{
+ text-align:left;
+}
