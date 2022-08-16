@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My website Style guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Sacramento&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <h1>My website Style guide</h1>
+    <div class='colors'>
+      <h3>Colors</h3>
+      <div class='m'>
+        <p class = 'maroon'>Maroon<br>hsl(0,100%,25%)</p>
+      </div>
+      <div class='v'>
+        <p class='violet'>Violet<br>hsl(300,100%,25%)</p>
+      </div>
+      <div class='w'>
+        <p class='wheat'>Wheat<br>hsl(39,77%,33%)</p>
+      </div>
+      <div class='b'>
+        <p class='beige'>Beige<br>hsl(60,50%,90%)</p>
+      </div>
+    </div>
+    <div class='fonts'>
+      <h3>Font styles guide</h3>
+      <p class='sacramento'>Sacramento Font</p>
+      <p class='sacramento'>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+      <p class='sacramento'><strong>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</strong></p>
+      <p class='sacramento'><em>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</em></p>
+      <p class='shadows'>Shadows Into Light Font</p>
+      <p class='shadows'>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+      <p class='shadows'><strong>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</strong></p>
+      <p class='shadows'><em>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</em></p>
+      <p class='IBM'>IBM Font</p>
+      <p class='IBM'>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+      <p class='IBM'><strong>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</strong></p>
+      <p class='IBM'><em>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</em></p>
+    </div>
+    <div class='text'>
+      <h3>Text stiles guide</h3>
+      <h1>This is a H1</h1>
+      <ul class='h1'>
+        <li>Font weight: 400</li>
+        <li>Font size: 24px</li>
+        <li>Font style: Shadows Into Light</li>
+      </ul>
+      <h4>This is a H4</h4>
+      <ul class='h4'>
+        <li>Font weight: 400</li>
+        <li>Font size: 24px</li>
+        <li>Font style: Sacramento</li>
+      </ul>
+      <p>This is a p tag</p>
+      <ul class='p'>
+        <li>Font weight: 700(Bold)</li>
+        <li>Font size: 32Px</li>
+        <li>Font style: IBM Plex Sans Thai Looped</li>
+      </ul>
+    </div>
+  </body>
+</html>
