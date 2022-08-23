@@ -1,0 +1,238 @@
+html{
+  font-size:16px;
+  font-family:'Abril Fatface'
+  }
+
+  a:hover{
+    text-shadow:none;
+  }
+
+  a:active{
+    color:grey;
+  }
+
+.title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.title h1{
+  font-size:4rem;
+  font-weight:12rem;
+  text-shadow:4px 4px 4px gray;
+  text-align:center;
+}
+
+.navbar ul{
+  display:flex;
+  flex-flow:row nowrap;
+  align-items:center;
+  justify-content:center;
+  list-style:none;
+  text-align:center;
+}
+
+.navbar ul li {
+  margin:1rem;
+  text-shadow:2px 2px 2px gray;
+  flex:2 9 auto;
+}
+
+.navbar ul li a{
+  text-decoration:none;
+  color:black;
+  font-size:1.2rem;
+}
+
+.banner{
+  background-image: url("skyscrapers.webp");
+  width:100%;
+  height:19rem;
+  display:flex;
+  flex-flow:column wrap;
+  background-size:cover;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:3;
+}
+
+.banner .experience{
+  text-align:center;
+  background-color:white;
+  width:100%;
+  flex-shrink:3;
+}
+
+.banner .experience h2{
+  font-size:2rem;
+  text-shadow:2px 2px 2px gray;
+}
+
+.banner .experience h4{
+  font-size:1.2rem;
+  text-shadow:2px 2px 2px gray;
+  word-spacing:0.3rem;
+}
+#portfolio .heading{
+  display:flex;
+  flex-flow:column wrap;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin-top:2.5rem;
+}
+
+#portfolio .heading h2{
+  font-size:2rem;
+  text-shadow:2px 2px 2px gray;
+}
+
+#portfolio .heading p{
+  font-size:1.2rem;
+  word-spacing:0.3rem;
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.container .pic{
+  margin:1rem;
+  display:flex;
+  text-align:right;
+  align-items:center;
+}
+
+.container .pic img{
+  width:16rem;
+  height:10rem;
+}
+
+.container .pic figcaption{
+  font-weight:bold;
+  font-size:2rem;
+  font-size:1rem;
+  text-shadow:2px 2px 2px gray;
+}
+
+#people{
+  text-align:center;
+  font-size:2rem;
+  text-shadow:2px 2px 2px gray;
+}
+.team{
+  background-image:url('blurred-road.jpg');
+  width:100%;
+  height:32rem;
+  display:flex;
+  text-align:center;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.team .bottom{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  flex-shrink:10;
+}
+
+
+
+.bottom .employee img{
+  width:14rem;
+  height:20rem;
+  margin:1rem 2rem 0.5rem 2rem;
+  flex:1 10 5rem;
+}
+
+.bottom .employee figcaption{
+  color:white;
+  text-shadow:2px 2px 2px grey;
+  font-size:1rem;
+  font-weight:bold;
+}
+
+@media only screen and (max-width:480px){
+  .bottom .employee img{
+  width:6rem;
+  height:9rem;
+  margin:1rem 2rem 0.5rem 2rem;
+  flex:1 10 5rem;
+}
+
+.bottom .employee figcaption{
+  color:white;
+  text-shadow:2px 2px 2px grey;
+  font-size:0.7rem;
+  font-weight:bold;
+}
+.bottom .employee h2 {
+  font-size:0.8rem;
+}
+
+.team{
+  height:46rem;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:1024px){
+  .bottom .employee img{
+  width:8rem;
+  height:10rem;
+  margin:1rem 2rem 0.5rem 2rem;
+  flex:1 10 5rem;
+}
+
+.bottom .employee figcaption{
+  color:white;
+  text-shadow:2px 2px 2px grey;
+  font-size:0.7rem;
+  font-weight:bold;
+}
+.bottom .employee h2 {
+  font-size:0.8rem;
+}
+
+.tablet{
+  height:150rem;
+}
+}
+
+/*media queries end */
+
+.footer {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+  text-shadow:2px 2px 2px gray;
+  height:15rem;
+  width:100%;
+}
+
+.footer h2{
+  font-size:2rem;
+}
+
+.footer a{
+font-size:1rem;
+margin-bottom:1rem;
+text-decoration:none;
+color:black;
+
+}
+
+.footer p{
+font-size:0.8rem;
+align-self:flex-start;
+margin-left:0.2rem;
+}
